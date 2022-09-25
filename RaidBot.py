@@ -39,24 +39,24 @@ from discord.ext import commands
 embed=discord.Embed(title="Nuke!", url="https://github.com/Femelles/RaidTool-Discord/", description="Here is the list of available commands : ", color=0x000000)
 embed.add_field(name="!help", value="Display the list of available commands", inline=False)
 embed.add_field(name="!nuke", value="Fuck the server totally (without ban)", inline=False)
-embed.add_field(name="!mininuke", value="niquer le serveur (sans créer de rôles)", inline=False)
-embed.add_field(name="!clearall", value="supprimer tous les salons et tous les rôles", inline=False)
-embed.add_field(name="!clearchannels", value="supprimer tous les salons(sans supprimer les rôles)", inline=False)
-embed.add_field(name="!cleartext", value="supprimer tous les salons textuels", inline=False)
-embed.add_field(name="!clearvoice", value="supprimer tous les salons vocaux", inline=False)
-embed.add_field(name="!clearroles", value="supprimer tous les rôles existants", inline=False)
-embed.add_field(name="!ban", value="ban tous les membres(si possible)", inline=False)
-embed.add_field(name="!create", value="créer des salons textuels et vocaux en boucle", inline=False)
-embed.add_field(name="!createtext", value="créer des salons textuels en boucle", inline=False)
-embed.add_field(name="!createvoice", value="créer des salons vocaux en boucle", inline=False)
-embed.add_field(name="!createroles", value="créer des rôles en boucle", inline=False)
-embed.add_field(name="!giveroles", value="donner à tous les membres du serveur tous les rôles existants", inline=False)
-embed.add_field(name="!spamroles", value="créer et donner des rôles à tous les membres du serveurss", inline=False)
-embed.add_field(name="!spam", value="envoyer un message en boucle dans tous les salons textuels", inline=False)
-embed.add_field(name="!spammembers", value="envoyer un message en privé à tous les membres du serveur", inline=False)
-embed.add_field(name="!server", value="changer le nom et enlever l'icône du serveur", inline=False)
-embed.add_field(name="!link", value="recevoir un lien permettant d'apprendre à raid un serveur", inline=False)
-embed.add_field(name="**+**", value="pour augmenter le nombre de messages envoyés, envoyer [!spam] plusieurs fois", inline=False)
+embed.add_field(name="!mininuke", value="Fuck the server (without creating roles)", inline=False)
+embed.add_field(name="!clearall", value="Delete all channels and roles", inline=False)
+embed.add_field(name="!clearchannels", value="Delete all channels (without deleting roles)", inline=False)
+embed.add_field(name="!cleartext", value="Remove all text channels", inline=False)
+embed.add_field(name="!clearvoice", value="Delete all voice channels", inline=False)
+embed.add_field(name="!clearroles", value="Delete all existing roles", inline=False)
+embed.add_field(name="!ban", value="Ban all members (if possible)", inline=False)
+embed.add_field(name="!create", value="Create looping text and voice channels", inline=False)
+embed.add_field(name="!createtext", value="Create looping text channels", inline=False)
+embed.add_field(name="!createvoice", value="Create looping voice channels", inline=False)
+embed.add_field(name="!createroles", value="Create roles in a loop", inline=False)
+embed.add_field(name="!giveroles", value="Give all server members all existing roles", inline=False)
+embed.add_field(name="!spamroles", value="Create and assign roles to all server members", inline=False)
+embed.add_field(name="!spam", value="Loop message in all text channels", inline=False)
+embed.add_field(name="!spammembers", value="Send a private message to all members of the server", inline=False)
+embed.add_field(name="!server", value="Change name and remove server icon", inline=False)
+embed.add_field(name="!link", value="Receive a link to learn how to raid a server", inline=False)
+embed.add_field(name="**+**", value="To increase the number of messages sent, send [!spam] several times", inline=False)
 embed.set_footer(text="Nuke! | Femelles/RaidTool-Discord")
 
 link = "https://github.com/Femelles/RaidTool-Discord"
@@ -82,7 +82,7 @@ nom_serveur = "RAID BY [YOUR NICKNAME]"
 couleur_roles = 0x000001
 
 def spam_member(membre) :
-    return f"""***Yo (member)! If you want a good discord stealer ( Passwords , cookies , t0ken discord ) with free key come here :*** **__https://discord.gg/UVV69wTF __** """
+    return f"""***Yo (member)! YOUR TEXT """
 
 
 
@@ -322,5 +322,5 @@ async def on_message(message):
 try:
     bot.run(token)
 except:
-    input(" Le token du bot est invalide :/")
+    input(" Bot token is invalid :/")
     quit()
