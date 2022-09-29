@@ -1,5 +1,6 @@
 # **RAID BOT DISCORD**
-
+## My other project : Discord Token Gen .
+  - github.com/Femelles
 > EDUCATION PURPOSE ONLY 
 
 Supports Windows, Linux, Mac. (Tested on Windows 10 Education/Professional and Mac OS )
