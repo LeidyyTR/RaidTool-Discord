@@ -244,7 +244,7 @@ To increase the number of messages sent, send [!spam] several times""")
     activity = discord.Game(name="!help | https://github.com/Femelles/RaidTool-Discord", type=1)
     await bot.change_presence(status=discord.Status.idle, activity=activity)
 
-
+ 
 @bot.event
 async def on_message(message):
     serveur = message.guild
