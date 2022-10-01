@@ -1,6 +1,7 @@
 # **RAID BOT DISCORD**
-## My other project : Discord Token Gen .
-  - github.com/Femelles
+## Check my other projects.
+  - https://github.com/Femelles
+  
 > EDUCATION PURPOSE ONLY 
 
 Supports Windows, Linux, Mac. (Tested on Windows 10 Education/Professional and Mac OS )
@@ -35,3 +36,7 @@ Supports Windows, Linux, Mac. (Tested on Windows 10 Education/Professional and M
 
 # `DISCLAIMER`
 ### *I am not responsible for any bans you might/will receive using Raid ToolBox, Nor am I responsible for damages caused with Raid ToolBox, or other peoples actions with this program.*
+
+##If you need help : 
+  > https://discord.gg/femelles
+  > F♥m♥ll♥s👑#9215
